@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 40px;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    width: 380px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: green;
+    border: none;
+    color: white;
+}
+
+#result {
+    margin-top: 15px;
+}
